@@ -1,0 +1,15 @@
+#+TITLE: bitcoinj examples in Clojure
+
+* Description
+
+  Implementation of ~bitcoinj~ examples in Clojure.
+
+* How to run
+
+  #+BEGIN_SRC sh
+clj -M -m org.bitcoinj.examples.backup-to-mnemonic-seed.core
+  #+END_SRC
+
+* Reference
+
+  - https://github.com/bitcoinj/bitcoinj/tree/master/examples/src/main/java/org/bitcoinj/examples
